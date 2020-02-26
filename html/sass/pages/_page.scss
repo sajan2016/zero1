@@ -1,0 +1,183 @@
+
+.section{
+    &__plan-group{
+        background-color: #efefef;
+        height:50rem;
+        display:block;
+        position: relative;
+
+        &--line{
+            background-color: #dbdbdb;
+            margin:0;
+            margin-top: 1.5rem;
+            border: none;
+            height: 1px;
+        }
+    }
+
+    &__plan{
+        @include clearfix;
+        
+        &-text{
+            display:block;
+        }
+
+    &--unlimited-data{
+        width: 100%;
+        margin: 0 auto;
+        background-color: rgba($color-white, .6);
+        border-radius: 3px;
+        padding: 6rem;
+        padding-left: 9rem;
+        font-size: $default-font-size;
+    
+    
+        &__shape{
+            height: 20rem;
+            float: right;
+            position: relative;
+            overflow: hidden;
+        }
+    
+        &__img {
+            height: 100%;
+            transform: translateY(.2rem)
+        }
+
+        &__text {
+            transform: translate(-15%, 20%);
+        }
+    
+    }
+
+    }
+
+    &__form{
+        width:100%;
+        height:60rem;
+        background-color: #efefef;
+        &__heading{
+            padding: 1.5rem 0;
+            text-align: center;
+            font-weight:200;
+
+            &-main{
+                font-weight:580;
+                font-size: 3rem;
+                color:rgba($color-black,.8);
+            }
+
+            &-description{
+                margin-top: 1.5rem;
+                color:rgba($color-black,.6);
+            }
+        }
+    }
+
+}
+
+.plan{
+    @include clearfix;
+    text-align: center;
+    &__choice{
+        &__list{
+            list-style: none;
+        }
+        &__item{
+            &:not(:last-child){
+                margin-bottom: 1.5rem;
+            }
+        }
+
+        &__item:hover{
+            cursor: pointer;
+        }
+        &-logo{
+            margin-right: 10px;
+            height: 70px;
+            width: 70px;
+            border-radius: 50%;
+            background: #fff;
+            padding: 1.2rem;
+            padding-top:1.8rem;
+            display: inline-block;
+            justify-content: center;
+            align-items: center;
+        }
+        &-img{
+            max-width: 5rem;
+            height:auto;
+        }
+    }
+
+    &__data{
+        &-img{
+            max-width: 100%;
+            height:auto;
+        }
+
+    }
+}
+
+.feature{
+    height:60rem;
+    width:100%;
+    padding: 2.5rem 0;
+    background-image:url(../img/footer_gradient.png);
+    &__component{
+        @include clearfix;
+
+        &:hover{
+            cursor: pointer;
+        }
+        &--img{
+            max-width: 7rem;
+            height:auto;
+            float:left;
+        }
+
+        &--data{
+            color:$color-white;
+            font-size: 1.6rem;
+            float:right;
+            width:78%;
+            }
+    }
+
+    &__logo{
+            @include clearfix;
+            text-align: center;
+            &-and-button{
+                &--img{
+                    max-width: 40rem;
+                    height:auto;
+                }
+            }
+    }
+}
+
+@-webkit-keyframes check {
+    50% {
+    outline-color: #333;
+    box-shadow: 0 0 0 12px #333, 0 0 0 36px rgba(51, 51, 51, 0.2);
+    }
+    100% {
+    outline-color: #333;
+    box-shadow: 0 0 0 0 #333, 0 0 0 0 rgba(51, 51, 51, 0);
+    }
+    }
+    @keyframes check {
+    50% {
+    outline-color: #333;
+    box-shadow: 0 0 0 12px #333, 0 0 0 36px rgba(51, 51, 51, 0.2);
+    }
+    100% {
+    outline-color: #333;
+    box-shadow: 0 0 0 0 #333, 0 0 0 0 rgba(51, 51, 51, 0);
+    }
+    }
+
+    *{
+        font-size: 1.6rem;
+    }
+

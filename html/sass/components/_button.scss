@@ -1,0 +1,23 @@
+.btn{
+    text-decoration: none;
+    padding: 1.5rem 1rem;
+    display: inline-block;
+    border-radius: 1rem;
+    position: relative;
+    font-size: $default-font-size;
+    border: none;
+    cursor: pointer;
+    &:focus {
+        outline: none;
+        box-shadow: 0 .5rem 1rem rgba($color-black,.2);
+    }
+    &--purple{
+        background-color:$color-purple-light-1;
+        color: $color-white;
+    }
+
+    &--black{
+        background-color:$color-black;
+        color: $color-white;
+    }
+}
