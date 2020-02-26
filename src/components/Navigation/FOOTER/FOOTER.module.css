@@ -1,0 +1,154 @@
+.footer {
+	width: 100%;
+	height: 30rem;
+	background-image: url(../../../assets/img/footer_gradient.png);
+	color: #fff;
+}
+
+.footer__left {
+	width: 50%;
+	float: left;
+	padding: 6rem 6rem;
+}
+
+.footer__leftheading {
+	font-size: 1.8rem;
+	font-weight: 700;
+	margin-bottom: 1.2rem;
+}
+
+.footer__lefttext {
+	display: block;
+	text-decoration: none;
+}
+
+.footer__lefttext:link,
+.footer__lefttext:visited {
+	color: #fff;
+}
+
+.footer__lefttext:not(:last-child) {
+	margin-bottom: 1rem;
+}
+
+.footer__lefttext:hover {
+	cursor: pointer;
+}
+
+.footer__left__termslink {
+	text-decoration: none;
+}
+
+.footer__left__termslink:link,
+.footer__left__termslink:visited {
+	color: #fff;
+}
+
+.footer__right {
+	float: right;
+}
+
+.footer__righttext {
+	margin-top: 60%;
+	margin-right: 3.5rem;
+	font-weight: 400;
+}
+
+.footer__rightlinks {
+	margin: 2rem 6.5rem;
+	text-align: right;
+}
+
+.footer__rightlinkslink {
+	text-decoration: none;
+}
+
+.footer__rightlinkslink:not(:last-child) {
+	margin-right: 1rem;
+}
+
+.footer__rightlinkslink>* {
+	font-size: 3.6rem !important;
+}
+
+.footer__rightlinkslink:link,
+.footer__rightlinkslink:visited {
+	color: #fff;
+}
+
+.row {
+	max-width: 114rem;
+	margin: 0 auto;
+}
+
+.row:not(:last-child) {
+	margin-bottom: 4rem;
+}
+
+.row::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.row [class^="FOOTER_col"] {
+	float: left;
+}
+
+.row [class^="FOOTER_col"]:not(:last-child) {
+	margin-right: 2rem;
+}
+
+.row .col1of2 {
+	width: calc((100% - 2rem)/2);
+}
+
+.row .col1of3 {
+	width: calc((100% - 2*2rem)/3);
+}
+
+.row .col2of3 {
+	width: calc(2*((100% - 2* 2rem)/3) + 2rem);
+}
+
+.row .col1of4 {
+	width: calc((100% - 3*2rem)/4);
+}
+
+.row .col2of4 {
+	width: calc(((100% - 3 * 2rem) / 4)*2 + 2rem);
+}
+
+.row .col3of4 {
+	width: calc(((100% - 3 * 2rem) / 4)*3 + 2*2rem);
+}
+
+.btn {
+	text-decoration: none;
+	padding: 1.5rem 1rem;
+	display: inline-block;
+	border-radius: 1rem;
+	position: relative;
+	font-size: 1.6rem;
+	border: none;
+	cursor: pointer;
+}
+
+.btn:focus {
+	outline: none;
+	box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+.btnpurple {
+	background-color: #bf168c;
+	color: #fff;
+}
+
+.btnblack {
+	background-color: #000;
+	color: #fff;
+}
+
+
+
+
