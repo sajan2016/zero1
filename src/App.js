@@ -1,25 +1,18 @@
 import React,{Component} from 'react';
-import Aux from './hoc/Aux/Aux';
+import {Route,Switch} from 'react-router-dom';
 
-// import {Route,Switch} from 'react-router-dom';
-
-import Layout from './hoc/Layout/Layout';
-// import BurgerBuilder from './containers/BurgerBuilder/BurgerBuilder';
-// import Checkout from './containers/Checkout/Checkout';
-// import Orders from './containers/Orders/Orders';
+import HOME from './containers/HOME/HOME';
+import LOGIN from './components/LOGIN/LOGIN';
+import SIGNUP from './components/SIGNUP/SIGNUP';
 
 class App extends Component{
   render(){
     return (
-      <Aux>
-        <Layout>
-        {/* <Switch>
-        <Route path="/checkout" component={Checkout}/>
-        <Route path="/orders" component={Orders}/>
-        <Route path="/" exact component={BurgerBuilder}/>
-        </Switch>         */}
-         </Layout> 
-      </Aux>
+        <Switch>
+        <Route path="/login" component={LOGIN}/>
+        <Route path="/signup" component={SIGNUP}/>
+        <Route path="/" exact component={HOME}/>
+        </Switch>        
     );
   }
 }
