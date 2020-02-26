@@ -1,0 +1,31 @@
+.login{
+    height:50rem;
+    margin:8rem;
+    text-align: center;
+    &__message{
+        margin:1.5rem 0;
+        &_img{
+            max-width: 15rem;
+        }
+        &_heading{
+            font-size: 4rem;
+            font-weight: 400;
+            color: #d32f33;
+        }
+
+        &_text{
+            font-weight: 540;
+            font-size: 2rem;
+            color:#0a0a0a;
+        }
+        &_question{
+            color:#d32f33;
+            font-weight: 400;
+            font-size: 2.5rem;
+            &_bold{
+                font-weight:700;
+                font-size: 2.5rem;
+            }
+        }
+    }
+}

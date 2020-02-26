@@ -461,3 +461,27 @@ body {
     margin-left: 15rem; }
   .form__is-primary {
     border-color: #d6199d; }
+
+.login {
+  height: 50rem;
+  margin: 8rem;
+  text-align: center; }
+  .login__message {
+    margin: 1.5rem 0; }
+    .login__message_img {
+      max-width: 15rem; }
+    .login__message_heading {
+      font-size: 4rem;
+      font-weight: 400;
+      color: #d32f33; }
+    .login__message_text {
+      font-weight: 540;
+      font-size: 2rem;
+      color: #0a0a0a; }
+    .login__message_question {
+      color: #d32f33;
+      font-weight: 400;
+      font-size: 2.5rem; }
+      .login__message_question_bold {
+        font-weight: 700;
+        font-size: 2.5rem; }

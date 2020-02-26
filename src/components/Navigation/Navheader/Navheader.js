@@ -12,7 +12,7 @@ class Navheader extends Component{
                 <nav className={classes.navigation__nav}>
                     <ul className={classes.navigation__list}>
                         <li className={classes.navigation__item__logo}>
-                        <img src={Logo} alt="logo" className={classes.navigation__logo}/>
+                        <Link to="/"><img src={Logo} alt="logo" className={classes.navigation__logo}/></Link>
                         </li>
                         <li className={classes.navigation__item}>
                         <Link  to="/login" className={classes.navigation__link}>Account Login</Link>
