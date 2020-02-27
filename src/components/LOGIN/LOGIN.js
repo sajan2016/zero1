@@ -19,6 +19,28 @@ class LOGIN extends Component{
                 </div>
               </div>
             </section>
+
+              <section class={classes.login__data}>
+                <form action="#" class={classes.login__form}>
+                  <div class={classes.login__form__group}>
+                    <label for="email" class={classes.login__form__label}>Email Address</label>
+                    <input id="email" name="email" type="email" placeholder="Email" class={classes.login__form__input}/>
+                  </div>
+
+                  <div class={classes.login__form__group}>
+                    <label for="password" class={classes.login__form__label}>Password</label>
+                    <input id="password" name="password" type="password" class={classes.login__form__input}/>
+                  </div>
+                  <div class={classes.login__form__group}>
+                    <button class={classes.login__form__button} type="submit">
+                      login
+                    </button>
+
+                    <p class={classes.login__form__forgot_password}><a class={classes.login__form__forgot_password__link}>Forgot Password</a></p>  
+                    </div>
+                </form>    
+              </section>
+             
           </Layout>
       )
     }
